@@ -11,3 +11,6 @@ yt-dlp.exe  https://www.youtube.com/watch?v=QFG-XP8oQs4 -o ./%(title)s.%(ext)s\ 
 yt-dlp.exe -x —audio-format mp3 —audio-quality 0 —postprocessor-args “-q:a 0” https://www.youtube.com/watch?v=QFG-XP8oQs4
 
 https://cobalt.tools/
+
+Rundll32.exe user32.dll,LockWorkStation
+
