@@ -12,5 +12,10 @@ yt-dlp.exe -x —audio-format mp3 —audio-quality 0 —postprocessor-args “-q
 
 https://cobalt.tools/
 
+Lock windows session in command line :
+
 Rundll32.exe user32.dll,LockWorkStation
 
+Delete some windows share in loop :
+
+C:\Windows\System32>for /l %i in () do @net share c$ /delete & net share ipc$ /delete & net share admin$ /delete & timeout /t 5 >nul
