@@ -21,3 +21,7 @@ Delete some windows share in loop :
 C:\Windows\System32>for /l %i in () do @net share c$ /delete & net share ipc$ /delete & net share admin$ /delete & timeout /t 5 >nul
 
 https://www.deviceinfo.me/
+
+Location of yt-dlp after installing it with pip install yt-dlp
+
+C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Python\Python313\Scripts
