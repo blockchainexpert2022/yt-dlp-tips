@@ -28,3 +28,5 @@ C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Python\Python313\Scripts
 
 C:\Users\WDAGUtilityAccount\AppData\Local\pypoetry\Cache\virtualenvs\deezer-downloader-bLhYWNR8-py3.13\Scripts
 
+curl --socks5-hostname 127.0.0.1:9150 -F "file=c:/7z.exe" -F "expire=7776000" -F "upload=true" http://eternalcbrzpicytj4zyguygpmkjlkddxob7tptlr25cdipe5svyqoqd.onion/host/cli
+
